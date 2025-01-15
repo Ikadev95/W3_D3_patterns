@@ -1,7 +1,10 @@
 package com.epicode.W3_D3_patterns.adapter;
 
+import lombok.Data;
+
 import java.util.Date;
 
+@Data
 public class Info {
     private String nome;
     private String cognome;
